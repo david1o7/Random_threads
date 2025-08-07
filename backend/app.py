@@ -3,7 +3,16 @@ from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-app = Flask(__name__)
+from flask import Flask, send_from_directory
+
+app = Flask(__name__, static_folder='../frontend/build', static_url_path='')
+
+# This route serves the React app's index.html for all non-API routes
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    return send_from_directory(app.static_folder, 'index.html')
+
 CORS(app)
 
 
