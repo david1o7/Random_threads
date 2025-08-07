@@ -16,7 +16,7 @@ def serve(path):
 CORS(app)
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///threads.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://goldenbird5:Myy9ZFskvYQNWNkbgRx14G9MYBa8rS0B@dpg-d2aar4fdiees738r5ic0-a.oregon-postgres.render.com/threads_db_2ip8'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
