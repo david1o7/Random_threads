@@ -9,7 +9,7 @@ load_dotenv()
 
 from flask import Flask, send_from_directory
 
-app = Flask(__name__, static_folder='../frontend/build', static_url_path='')
+app = Flask(__name__, static_folder='../frontend/dist', static_url_path='')
 
 # This route serves the React app's index.html for all non-API routes
 @app.route('/', defaults={'path': ''})
