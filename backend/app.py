@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+load_dotenv() 
 
 from flask import Flask, send_from_directory
 
@@ -16,7 +20,7 @@ def serve(path):
 CORS(app)
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://goldenbird5:Myy9ZFskvYQNWNkbgRx14G9MYBa8rS0B@dpg-d2aar4fdiees738r5ic0-a.oregon-postgres.render.com/threads_db_2ip8'
+app.config['SQLALCHEMY_DATABASE_URI'] =  os.getenv("DATABASE_URL")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
