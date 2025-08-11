@@ -17,7 +17,7 @@ An addictive anonymous social platform for Babcock University students to share 
 
 - **Frontend:** React, Vite, CSS3
 - **Backend:** Flask, SQLAlchemy
-- **Database:** SQLite
+- **Database:** POSTGRESQL
 - **Styling:** Custom CSS with animations
 
 ## 🚀 Quick Start
@@ -146,4 +146,5 @@ Random Threads is designed to provide a safe, anonymous space for students to sh
 ---
 
 **🔥 Random Threads - Where authenticity meets anonymity**
+
 
