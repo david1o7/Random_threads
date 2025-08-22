@@ -1,4 +1,5 @@
-<img width="899" height="410" alt="image" src="https://github.com/user-attachments/assets/77b8f3f0-1667-4a99-99b2-93a237f44bc9" />
+<img width="952" height="446" alt="image" src="https://github.com/user-attachments/assets/39d6220b-4850-4a62-80f4-6c0c8b5f86e8" />
+
 <img width="899" height="410" alt="image" src="https://github.com/user-attachments/assets/2ac97cbe-52ed-4e36-9e01-eb1a57cf98f9" />
 
  # 🔥 Random Threads
@@ -149,6 +150,7 @@ Random Threads is designed to provide a safe, anonymous space for students to sh
 ---
 
 **🔥 Random Threads - Where authenticity meets anonymity**
+
 
 
 
